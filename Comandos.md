@@ -140,4 +140,27 @@ _La mejor forma en que he encontrado para pensar sobre lo que debería estar en 
 _DATO: Las líneas que comienzan con # son comentarios y no se registrarán._
 *Tipo:* ```git commit -m "#Esto es un comentario"```. Aunque para usar eso, mejor uso solo ```git commit```.
 
+## CLASE 5
+
+```git tag -a version1.0 -m "Mensaje"```
+
+```git tag -a Beta -m "Mensaje"```
+ 
+Permite agregarle etiquetas a commits específico. Reemplazar ```Mensaje```, por el mensaje del commit.Lo puedo usar cuando suba una nueva versión. *EJEMPLO: Como cuando en mi sudoku cuando le agrege una interfaz gráfica, a ese le pude poner un tag para marcar un antes y un después.*
+ 
+*IMPORTANTE: No olvidar ponerle ```-a```, ésto le dice a Git que cree una flag anotada. Sí no se lo coloco se crea una "tag ligero".* 
+*Una de las ventajas que tiene usarlo es que te permite ver: el mensaje, quién y cuándo se hizó. *
+
+```git tag```
+
+Retorna todos los tags que se han creado en el repositorio.
+
+```git tag -d NombreTag```
+
+Permite borrar un tag. Reemplazar ```NombreTag``` por el nombre del tag que se quiere eliminar.
+
+```git tag -a NombreTag SHA -m "Mensaje"```
+
+Permite agregrarle un tag a un commit que ya hemos subido. ```NombreTag``` por el nombre del tag con el que se quiere nombrar.
+
 
