@@ -164,3 +164,7 @@ Permite borrar un tag. Reemplazar ```NombreTag``` por el nombre del tag que se q
 Permite agregrarle un tag a un commit que ya hemos subido. ```NombreTag``` por el nombre del tag con el que se quiere nombrar.
 
 
+# KEEP CODING!
+![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
+
+
