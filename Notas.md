@@ -98,6 +98,8 @@ Agregar tags a commits específicos. Un tag es un labe,una etiqueta, etc.
 
 Permite combinar diferentes cambios que se realizaron en diferentes ramas y unirlos.
 
+*Git puede combinar automáticamente los cambios en diferentes ramas juntas. ¡Esta capacidad de ramificación y fusión es lo que hace que Git sea increíblemente poderoso! Puede realizar cambios pequeños o extensos en las ramas, y luego usar Git para combinar esos cambios.*
+
 #### git branch
 
 Permite múltiples ramas en el desarrollo. Permite trabajar en paralelo en una rama respecto a la rama master.
@@ -105,4 +107,9 @@ Permite múltiples ramas en el desarrollo. Permite trabajar en paralelo en una r
 #### git checkout
 
 Permite cambiar entre diferentes ramas o tags.
+
+
+
+# KEEP CODING!
+![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
 
