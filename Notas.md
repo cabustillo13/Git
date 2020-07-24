@@ -106,6 +106,13 @@ Permite múltiples ramas en el desarrollo. Permite trabajar en paralelo en una r
 
 Permite cambiar entre diferentes ramas o tags.
 
+*EJEMPLO: Sí escribo ```git branch nombreRama SHA``` va a crear la rama nombreRama y va a apuntar a ese SHA.*
+
+
+```git log --oneline --graph --all```
+
+```--graph``` agrega las viñetas y líneas a la parte más a la izquierda de la salida. Esto muestra la ramificación real que está sucediendo. 
+```--all``` es lo que muestra todas las ramas en el repositorio.
 
 # KEEP CODING!
 ![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
