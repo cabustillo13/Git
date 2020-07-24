@@ -208,8 +208,22 @@ Permite crear una nueva rama nombreRama y pararse en esa nueva rama creada en un
 ```git reset --hard HEAD^```
 
 Sí alguna vez haces un merge con la rama equivocada, puedes deshacerlo con ese comando.
- 
-**Hay que aseguranrse de incluir el carácter ```^``` Se conoce como una 'Referencia de confirmación relativa' e indica 'la confirmación principal'.**
+
+# HOLA, VENGO A DESTRUIR TU CÓDIGO
+**Hay que asegurarse de incluir el carácter ```^``` Se conoce como una 'Referencia de confirmación relativa' e indica 'la confirmación principal'.**
+
+```git merge nombreRama -m "Mensaje"```
+
+Primero debo asegurarme de que estoy parado en la rama master. Luego ejecuto ese comando para hacer un merge de nombreRama a la rama master. 
+También puedo hacer merge entre ramas si quiero.
+
+![Imagen de un merge de ramaSecundaria a la rama master](https://github.com/cabustillo13/Git/blob/master/git%20merge.png)
+
+En la imagen se puede apreciar un merge de la ramaSecundaria a la rama master.
+
+## RESOLVIENDO CONFLICTOS CON MERGE
+
+Se producirá un conflicto de fusión cuando las mismas líneas exactas se cambien en ramas separadas.
 
 
 
