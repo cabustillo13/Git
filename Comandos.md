@@ -58,5 +58,9 @@ Devuelve los tipos de cambios que se realizaron para commit.
 
 Sí quiero obtener directamente los cambios que se le hicieron directamente a un commit, le agrego su SHA.
 
+```git log -p```
 
+Muestra qué líneas de código fueron modificadas y qué fue lo que se modificó para commit.
+
+![git log -p](https://github.com/cabustillo13/Git/blob/master/git%20log%20-p.png)
 
