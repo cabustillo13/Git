@@ -87,4 +87,7 @@ Devuelve la información solo de un commit.
 
 Antes con ```git log SHA``` me devolvía primero la información del SHA que quería, y después mandaba información de todos los demás commits.
 
+![git show SHA](https://github.com/cabustillo13/Git/blob/master/git%20show%20SHA.png)
+
+También podemos agregarle -p -w --stat como en ```git log```
 
