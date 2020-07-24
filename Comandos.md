@@ -123,4 +123,4 @@ _**¡Aunque también, un commit que registra todos estos cambios estaría totalm
 _La mejor forma en que he encontrado para pensar sobre lo que debería estar en un commit es pensar: **'¿Qué pasa si se borran todos los cambios introducidos en este commit?'**. Si se borra un commit, solo debería eliminar una cosa._
 
 _DATO: Las líneas que comienzan con # son comentarios y no se registrarán._
-*Tipo:* ```git clone -m "#Esto es un comentario"```
+*Tipo:* ```git commit -m "#Esto es un comentario"```
