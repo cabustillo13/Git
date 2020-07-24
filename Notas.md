@@ -88,3 +88,21 @@ También yo siempre guardo las imágenes como: photo#.jpg donde # representa un 
 
 **.gitignore y .git deben estar en el mismo directorio.** Ambas subcarpetas no las puedo ver con mi sistema operativo.
 
+## CLASE 5
+
+#### git tag
+
+Agregar tags a commits específicos. Un tag es un labe,una etiqueta, etc.
+
+#### git merge
+
+Permite combinar diferentes cambios que se realizaron en diferentes ramas y unirlos.
+
+#### git branch
+
+Permite múltiples ramas en el desarrollo. Permite trabajar en paralelo en una rama respecto a la rama master.
+
+#### git checkout
+
+Permite cambiar entre diferentes ramas o tags.
+
