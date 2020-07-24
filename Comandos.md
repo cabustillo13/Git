@@ -163,6 +163,55 @@ Permite borrar un tag. Reemplazar ```NombreTag``` por el nombre del tag que se q
 
 Permite agregrarle un tag a un commit que ya hemos subido. ```NombreTag``` por el nombre del tag con el que se quiere nombrar.
 
+```git branch nombreRama```
+
+Permite crear una rama nueva. Escribir nombre en la rama en ```nombreRama```.
+
+```git branch```
+
+Permite visualizar todas las ramas creadas.
+
+```git push --set-upstream origin nombreRama```
+
+Permite cargar mi rama que cree desde la consola.
+
+```git checkout nombreRama```
+
+*EJEMPLO: Sí escribo ```git branch nombreRama SHA``` va a crear la rama nombreRama y va a apuntar a ese SHA.*
+
+Permite cambiar la rama donde estoy parado, y apuntar a ```nombreRama```. 
+
+```git branch -d nombreRama```
+
+Borra la rama nombreRama.
+
+**Una cosa a tener en cuenta es que NO puede eliminar una rama en la que se encuentra actualmente.** Para eso, me muevo a la rama master y 
+borro desde ahí la rama nombreRama. 
+
+```git branch -D nombreRama```
+
+Borrar forzosamente nombreRama, sí es que Git no me dejama borrarla por algún inconveniente con ```-d```.
+
+```git checkout -b nombreRama```
+
+Permite crear una nueva rama nombreRama y pararse en esa nueva rama creada en un solo paso.
+
+```git log --oneline --graph --all```
+
+```--graph``` agrega las viñetas y líneas a la parte más a la izquierda de la salida. Esto muestra la ramificación real que está sucediendo. 
+```--all``` es lo que muestra todas las ramas en el repositorio.
+
+![Imagen git log --oneline --graph --all](https://github.com/cabustillo13/Git/blob/ramaSecundaria/git%20log%20--oneline%20--graph%20--all.png)
+
+## IMPORTANTE
+
+```git reset --hard HEAD^```
+
+Sí alguna vez haces un merge con la rama equivocada, puedes deshacerlo con ese comando.
+ 
+**Hay que aseguranrse de incluir el carácter ```^``` Se conoce como una 'Referencia de confirmación relativa' e indica 'la confirmación principal'.**
+
+
 
 # KEEP CODING!
 ![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
