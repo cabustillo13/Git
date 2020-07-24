@@ -106,3 +106,7 @@ Permite múltiples ramas en el desarrollo. Permite trabajar en paralelo en una r
 
 Permite cambiar entre diferentes ramas o tags.
 
+
+# KEEP CODING!
+![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
+
