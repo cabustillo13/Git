@@ -86,3 +86,41 @@ Antes con ```git log SHA``` me devolvía primero la información del SHA que que
 
 También podemos agregarle -p -w --stat como en ```git log```
 
+## CLASE 4
+
+```git add carpeta1/archivo1.py```
+
+Solo sube el archivo1.py que está dentro de la carpeta llamada "carpeta1".
+
+```git add capeta1/archivo1.py imagenes/archivo2.cpp carpeta3/archivo3.py```
+
+Solo añade los archivos: archivo1.py que está en la carpeta carpeta1, archivo2.cpp que está en la carpeta imágenes 
+y archivo3.py que está en la carpeta carpeta3.
+
+```git add .```
+
+Añade todos los archivos nuevos que hemos creado y/o modificado.
+
+```git commit```
+
+Realiza un commit.
+
+```git commit -m "Mensaje"```
+
+Al agregarle ```-m``` permite agregarle un mensaje al commit.
+
+*CONSEJO: **El objetivo es que cada commit tenga un solo enfoque.** Cada commit debe registrar un cambio de una sola unidad. Ahora, esto puede ser un poco subjetivo (lo cual está totalmente bien), pero cada commit debe hacer un cambio en solo un aspecto del proyecto*
+
+*EJEMPLO:*
+* *add a new image to the project files*
+* *alter the HTML* 
+* *add/modify CSS to incorporate the new image*
+
+_**¡Aunque también, un commit que registra todos estos cambios estaría totalmente bien!**_
+
+*Por el contrario, un commit no debe incluir cambios no relacionados entre sí: tipo cambios en la barra lateral y reescritura de contenido en el pie de página. Estos dos no están relacionados entre sí y no deben incluirse en el mismo commit. Primero trabaje en un cambio, comprométalo y luego cambie el segundo. De esa manera, si resulta que un cambio tenía un error y tienes que deshacerlo, no tienes que deshacer el otro cambio también.*
+
+_La mejor forma en que he encontrado para pensar sobre lo que debería estar en un commit es pensar: **'¿Qué pasa si se borran todos los cambios introducidos en este commit?'**. Si se borra un commit, solo debería eliminar una cosa._
+
+_DATO: Las líneas que comienzan con # son comentarios y no se registrarán._
+*Tipo:* ```git clone -m "#Esto es un comentario"```
