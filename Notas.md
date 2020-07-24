@@ -50,8 +50,19 @@ Permite tomar los archivos del staging index para guardarlos en el repositorio.
 
 #### git diff
 
-Permite ver la diferencia entre dos versiones de un archivo.
+Permite ver la diferencia entre dos versiones de un archivo. Este comando se usa para ver los cambios que se han realizado pero que aún no se han confirmado (osea aún no se realiza el commit).
 
 El output que devuelve es similar a ```git log -p```.
 
 *DATO: Ejecutar ```git init``` varias veces no causa ningún problema, ya que solo reinicia el directorio Git.*
+
+#### Consejos de las personas de Udacity
+
+*CONSEJO: La imagen fue obtenida del curso de [Version Control with Git - Udacity](https://www.udacity.com/course/version-control-with-git--ud123).*
+
+![Consejo sobre cómo escribir los mensajes para el commit](https://github.com/cabustillo13/Git/blob/master/A%20good%20commit%20message.png)
+
+[Udacity Git Commit Message Style Guide:](https://udacity.github.io/git-styleguide/)
+
+
+
