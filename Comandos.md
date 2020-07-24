@@ -220,13 +220,10 @@ También puedo hacer merge entre ramas si quiero.
 
 En la imagen se puede apreciar un merge de la ramaSecundaria a la rama master.
 
-## RESOLVIENDO CONFLICTOS CON MERGE
-
-Se producirá un conflicto de fusión cuando las mismas líneas exactas se cambien en ramas separadas.
-
-
 
 # KEEP CODING!
 ![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
+
+
 
 
