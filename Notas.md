@@ -109,6 +109,23 @@ Permite múltiples ramas en el desarrollo. Permite trabajar en paralelo en una r
 Permite cambiar entre diferentes ramas o tags.
 
 
+# RESOLVIENDO CONFLICTOS CON MERGE
+
+Se producirá un conflicto de fusión cuando las mismas líneas exactas se cambien en ramas separadas.
+
+![Conflict merge](https://github.com/cabustillo13/Git/blob/master/conflict%20merge1.png)
+
+
+![Conflict merge](https://github.com/cabustillo13/Git/blob/master/conflict%20merge2.png)
+
+Imágenes obtenidas de [Curso Version Control with Git - Udacity](https://www.udacity.com/course/version-control-with-git--ud123)
+
+*Una vez que haya eliminado todas las líneas con indicadores de conflicto de fusión y haya seleccionado qué encabezado desea usar, simplemente guarde el archivo, agréguelo al índice de preparación y ¡confírmelo! Al igual que con una fusión regular, esto abrirá su editor de código para que pueda enviar un mensaje de confirmación. Al igual que antes, es común usar el mensaje de confirmación de fusión proporcionado, así que después de que se abra el editor, simplemente ciérrelo para usar el mensaje de confirmación proporcionado.*
+
+**_¡Y eso es! Los conflictos de fusión realmente no son tan desafiantes una vez que comprende lo que le muestran los indicadores de conflicto de fusión._**
+
+En conclusión: Los conflictos se resuelven manualmente, y la herramienta Git te dice dónde es el conflicto.
+
 
 # KEEP CODING!
 ![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
