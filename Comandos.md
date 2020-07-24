@@ -32,12 +32,6 @@ Para salir solo apreto **q**.
 
 Colocas el *SHA* del commit que estás buscando. No gace falta escribir todo el SHA, con 6-8 carácteres es suficiente.
 
-```git log mensaje```
-
-Colocas en *mensaje* el título con que nombraste tu commit.
-
-*EJEMPLO: Yo en algún momemento hice un git commit -m "título del mensaje". Bueno yo puedo buscar ese título del mensaje con git log.*
-
 ```git log --oneline```
 
 Acá directamente me devuelve solo el título del mensaje junto a su respectivo SHA.
@@ -71,9 +65,10 @@ En la imagen que añadimos podríamos interpretarlo como: en la línea 38 se rea
 
 También puedo unir comandos como:
 
-```git log -p --stat```
-```git log --stat -p```
-
+```
+git log -p --stat
+git log --stat -p
+```
 En ambos casos me devuelven lo mismo. 
 
 ```git log -p -w```
