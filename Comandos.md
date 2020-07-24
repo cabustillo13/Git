@@ -64,3 +64,27 @@ Muestra qué líneas de código fueron modificadas y qué fue lo que se modific�
 
 ![git log -p](https://github.com/cabustillo13/Git/blob/master/git%20log%20-p.png)
 
+Las líneas color verde fue lo que se añadio y las de color rojo las que se eliminaron.
+
+Y la parte que tiene @@ en cuáes líneas de código se realizaron los cambios. 
+En la imagen que añadimos podríamos interpretarlo como: en la línea 38 se realizaron los cambios.
+
+También puedo unir comandos como:
+
+```git log -p --stat```
+```git log --stat -p```
+
+En ambos casos me devuelven lo mismo. 
+
+```git log -p -w```
+
+Ignora los espacios en blanco al comparar líneas. 
+Osea hace lo mismo que ```git log -p``` pero sin resaltar las líneas donde solo se han producido cambios en los espacios en blanco.
+
+```git show SHA```
+
+Devuelve la información solo de un commit. 
+
+Antes con ```git log SHA``` me devolvía primero la información del SHA que quería, y después mandaba información de todos los demás commits.
+
+
