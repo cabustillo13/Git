@@ -1,4 +1,4 @@
-# Git
+# GIT NOTAS
 
 ## **CLASE 1**
 
@@ -37,3 +37,21 @@ Devuelve información sobre los commits existentes.
 Devuelve información sobre un commit dado. Tipo vos le mandas el SHA de un commit específico y te devuelve toda la información solo de ese commit.
 
 *CONSEJO: Siempre debe ejecutar el comando git status. Especialmente al regresar a un proyecto después de un período de tiempo.*
+
+## **CLASE 4**
+
+#### git add
+
+Permite agregar archivos desde el directorio de trabajo al staging index.
+
+#### git commit
+
+Permite tomar los archivos del staging index para guardarlos en el repositorio.
+
+#### git diff
+
+Permite ver la diferencia entre dos versiones de un archivo.
+
+El output que devuelve es similar a ```git log -p```.
+
+*DATO: Ejecutar ```git init``` varias veces no causa ningún problema, ya que solo reinicia el directorio Git.*
