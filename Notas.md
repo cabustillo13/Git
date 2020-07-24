@@ -14,6 +14,14 @@ Cuando se realiza una commit, solo los cambios que se encuentran en el Staging I
 
 *EJEMPLO: El archivo HTML tiene cambios de HTML y CSS en el Staging Index y un cambio adicional de HTML en el directorio de trabajo. ¿Qué crees que se comprometerá si se realiza un compromiso en este momento? R// Solo el HTML y CSS que están en el Staging Index.* 
 
+####  Conceptos
+
+- **Git**: Es una control de versión distribuida, eso quiere decir cada integrante puede tener su propia copia del código en su computadora.
+
+- **SHA**: Es el número de confirmación para cada commit. 
+
+Se ve así: _e2adf8ae3e2e4ed40add75cc44cf9d0a869afeb6_
+
 ## **CLASE 2**
 
 #### git clone
@@ -64,5 +72,19 @@ El output que devuelve es similar a ```git log -p```.
 
 [Udacity Git Commit Message Style Guide:](https://udacity.github.io/git-styleguide/)
 
+#### .gitignore
 
+Se puede meter todos los archivos que no se quieren observar de forma pública, pero que permanezca localmente.
+Podemos activarlo y no usar ningún template, lo dejamos como .None.
+En mi sistema operativo no se puede ver esta subcarpeta pero está presente.
+
+*EJEMPLO: Podemos ignorar todas las imágenes .jpg de la carpeta Ejemplos, solo escribe dentro de .gitignore lo siguiente:* 
+
+```Ejemplos/*.jpg```
+
+También yo siempre guardo las imágenes como: photo#.jpg donde # representa un número. Sí quisiera ocultar todas esas imágenes con un formato similar puedo usar *?* y lo siguiente:
+
+```photo?.jpg``` 
+
+**.gitignore y .git deben estar en el mismo directorio.** Ambas subcarpetas no las puedo ver con mi sistema operativo.
 
