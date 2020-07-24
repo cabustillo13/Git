@@ -52,3 +52,11 @@ Para salir solo apreto **q**.
 
 Devuelve los tipos de cambios que se realizaron para commit.
 
+![git log --stat](https://github.com/cabustillo13/Git/blob/master/git%20log%20--stat.png)
+
+```git log --stat SHA```
+
+Sí quiero obtener directamente los cambios que se le hicieron directamente a un commit, le agrego su SHA.
+
+
+
