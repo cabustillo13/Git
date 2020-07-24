@@ -1,4 +1,4 @@
-# GIT COMANDOS VENGO A DESTRUIR TU CÓDIGO
+# GIT COMANDOS
 
 ## FUNDAMENTAL
 
@@ -209,7 +209,6 @@ Permite crear una nueva rama nombreRama y pararse en esa nueva rama creada en un
 
 Sí alguna vez haces un merge con la rama equivocada, puedes deshacerlo con ese comando.
 
-# HOLA, VENGO A DESTRUIR TU CÓDIGO
 **Hay que asegurarse de incluir el carácter ```^``` Se conoce como una 'Referencia de confirmación relativa' e indica 'la confirmación principal'.**
 
 ```git merge nombreRama -m "Mensaje"```
