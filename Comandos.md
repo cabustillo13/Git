@@ -23,7 +23,7 @@ git push
 
 ![Resultado](https://github.com/cabustillo13/Git/blob/master/git%20log.png)
 
-Ahí solo nos muestra los SHA recientes. Sí queremos seguir bajando apretamos **j** y si queremos subir **k**. 
+Ahí solo nos muestra los SHA recientes. Sí queremos seguir bajando apretamos en el teclado **j** y si queremos subir **k**. 
 También se puede hacer con las flechas de arriba y abajo.
 
 Para salir solo apreto **q**.
@@ -37,3 +37,18 @@ Colocas el *SHA* del commit que estás buscando. No gace falta escribir todo el 
 Colocas en *mensaje* el título con que nombraste tu commit.
 
 *EJEMPLO: Yo en algún momemento hice un git commit -m "título del mensaje". Bueno yo puedo buscar ese título del mensaje con git log.*
+
+```git log --oneline```
+
+Acá directamente me devuelve solo el título del mensaje junto a su respectivo SHA.
+
+![git log --oneline](https://github.com/cabustillo13/Git/blob/master/git%20log%20--oneline.png)
+
+Para salir solo apreto **q**.
+
+*CUIDADO: Un error de noob es escribir "online", en vez de "oneline".*
+
+```git log --stat```
+
+Devuelve los tipos de cambios que se realizaron para commit.
+
