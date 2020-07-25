@@ -126,6 +126,23 @@ Imágenes obtenidas de [Curso Version Control with Git - Udacity](https://www.ud
 
 En conclusión: Los conflictos se resuelven manualmente, y la herramienta Git te dice dónde es el conflicto.
 
+# CLASE 6
+
+#### git commit --amend
+
+Permite alterar el commit más reciente. 
+
+_EJEMPLO: Olvidaste agregar algo, recortar una imagen, colocar un título, etc_
+
+#### git revert
+
+Le pasamos el SHA de un commit específico, y todos los cambios posteriores a ese commit los borra.
+
+#### git reset
+
+Permite borrar commits
+
+**POTENCIALMENTE PELIGROSO USAR ÉSTO**
 
 # KEEP CODING!
 ![Imagen charla Mercado Libre en la UTN](https://github.com/cabustillo13/Git/blob/ramaSecundaria/Charla%20programacion%20en%20la%20UTN.jpeg)
