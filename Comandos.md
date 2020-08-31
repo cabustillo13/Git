@@ -20,6 +20,13 @@ git push
 
 Cuando quiero mantener sincronizado un fork actualizado con el proyecto orginal puedo consultar la siguiente página: [Ver](https://victorhckinthefreeworld.com/2016/12/14/git-mantener-un-fork-de-un-repositorio-actualizado/). Recordar que actualiza todo localmente, después de hacer el último paso se debe hacer un git commit y git push.
 
+```
+git checkout master
+git merge upstream/master
+git commit -m "Mensaje para mi proyecto"
+git push
+```
+
 **Hacer un git push desde mi fork al proyecto original**
 
 ```
